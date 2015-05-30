@@ -1,0 +1,22 @@
+<p id="notice"><%= notice %></p>
+<%= render "layouts/headerAdmin" %>
+<%= render "layouts/sidebarLineItemMenu" %>
+
+<p>
+  <strong>Sausage:</strong>
+  <%= @line_item.sausage.name %>
+</p>
+
+<p>
+  <strong>Cart#:</strong>
+  <%= @line_item.cart_id %>
+</p>
+
+<p>
+  <strong>Quantity:</strong>
+  <%= @line_item.quantity %>
+</p>
+
+<br>
+<br>
+<%= render "layouts/footer" %>

@@ -1,0 +1,45 @@
+<%= render "layouts/headerAdmin" %>
+<br>
+<br>
+<strong>
+  Store Order Status:
+</strong>
+It's <%= Time.now %>.
+
+We have <%= pluralize(@total_orders, "order") %>
+<br>
+<br>
+<h1>Admin Functions</h1>
+<body>
+  <ul>
+    <li>
+      <%= link_to 'Sausage Inventory', sausages_path %>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <%= link_to 'Orders Processed', orders_path %>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <%= link_to 'Users', users_path %>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <%= link_to 'Line Items', line_items_path %>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <%= link_to 'Admin Logout', sessions_destroy_path %>
+    </li>
+  </ul>
+
+
+<%= yield %>
+
+</body>
+
+<%= render "layouts/footer" %>

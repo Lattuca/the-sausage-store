@@ -1,0 +1,15 @@
+<aside id="sidebarCart">
+
+  <nav>
+    <ul>
+      <li>
+        <%= link_to 'Buy more Sausages', store_path %>
+      </li>
+      <li>
+        <%= link_to "Checkout", new_order_path, method: :get%>
+      </li>
+      <li>
+        <%= link_to "Empty Cart", @cart, method: :delete, data: {confirm: 'Are you sure to cancel order?'} %>
+      </li>
+    </ul>
+</aside>

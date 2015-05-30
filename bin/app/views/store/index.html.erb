@@ -1,0 +1,37 @@
+<p id="notice"><%= notice %></p>
+
+
+<%= render "layouts/header1" %>
+
+<h1>Listing of Our Sausages</h1>
+<br>
+<%= render "layouts/sidebarStore" %>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Price/lb</th>
+      <th>Calories/lb</th>
+      <th>In Stock Qty</th>
+      <th>Fresh</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @sausages.each do |sausage| %>
+      <tr>
+        <td><%= sausage.name %></td>
+        <td><%= sausage.description %></td>
+        <td><%= number_to_currency(sausage.price) %></td>
+        <td><%= sausage.calories %></td>
+        <td><%= sausage.qty %></td>
+        <td><%= sausage.fresh %></td>
+        <td><%= button_to 'Add to Cart', line_items_path(sausage_id: sausage) %>
+    <% end %>
+  </tbody>
+</table>
+<%= render "layouts/footer" %>
+<br>

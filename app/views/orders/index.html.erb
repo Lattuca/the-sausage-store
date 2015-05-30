@@ -1,0 +1,38 @@
+<p id="notice"><%= notice %></p>
+<%= render "layouts/headerAdmin" %>
+<h1>Listing of Orders</h1>
+<%= render "layouts/sidebarAdminMenu" %>
+
+<table>
+  <thead>
+    <tr>
+      <th>Id</id>
+      <th>Name</th>
+      <th>Address</th>
+      <th>Email</th>
+      <th>Pay type</th>
+      <th>Total Price</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @orders.each do |order| %>
+      <tr>
+        <td><%= order.id %></td>
+        <td><%= order.name %></td>
+        <td><%= order.address %></td>
+        <td><%= order.email %></td>
+        <td><%= order.pay_type %></td>
+        <td><%= number_to_currency(order.total_price) %></td>
+        <td><%= link_to 'Show', order %></td>
+        <td><%= link_to 'Edit', edit_order_path(order) %></td>
+        <td><%= link_to 'Destroy', order, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+<br>
+<%= render "layouts/footer" %>

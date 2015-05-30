@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyString
+  qty: 1
+  fresh: false
+  calories: 1
+  price: 1.5
+
+two:
+  name: MyString
+  description: MyString
+  qty: 1
+  fresh: false
+  calories: 1
+  price: 1.5

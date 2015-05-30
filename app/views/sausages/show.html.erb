@@ -1,0 +1,38 @@
+<p id="notice"><%= notice %></p>
+
+<%= render "layouts/headerAdmin" %>
+
+<h1>Display Sausage Product </h1>
+
+<%= render "layouts/sidebarSausageMenu" %>
+
+<p>
+  <strong>Name:</strong>
+  <%= @sausage.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @sausage.description %>
+</p>
+
+<p>
+  <strong>Qty:</strong>
+  <%= @sausage.qty %>
+</p>
+
+<p>
+  <strong>Fresh:</strong>
+  <%= @sausage.fresh %>
+</p>
+
+<p>
+  <strong>Calories:</strong>
+  <%= @sausage.calories %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @sausage.price %>
+</p>
+<%= render "layouts/footer" %>

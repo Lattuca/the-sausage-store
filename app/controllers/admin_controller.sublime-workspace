@@ -1,0 +1,247 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"part",
+				"part_number"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/carmelo/to_sausage_store/app/controllers/admin_controller.sublime-project",
+		"/media/carmelo/My Book/to_sausage_store_v10/Gemfile",
+		"/home/carmelo/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/carmelo/business2/spec/features/add_product_spec.rb",
+		"/home/carmelo/business2/spec/features/format_spec.rb",
+		"/home/carmelo/business2/spec/features/list_products_spec.rb",
+		"/home/carmelo/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/carmelo/business2/spec/features/login_as_admin_spec.rb",
+		"/home/carmelo/business2/spec/support/attributes.rb",
+		"/home/carmelo/to_sausage_store/app/views/line_items/index.html.erb",
+		"/home/carmelo/to_sausage_store/spec/support/attributes.rb",
+		"/home/carmelo/business2/config/routes.rb",
+		"/home/carmelo/to_sausage_store/app/views/layouts/_sidebarOrderMenu.html.erb",
+		"/home/carmelo/business2/spec/features/add_company_spec.rb",
+		"/home/carmelo/business2/spec/features/add_company_product_part_spec.rb",
+		"/home/carmelo/business2/spec/features/edit_company_spec.rb",
+		"/home/carmelo/to_sausage_store/spec/features/purchase_sausages_spec.rb",
+		"/media/carmelo/My Book/to_sausage_store/spec/features/complete_order_spec.rb",
+		"/home/carmelo/business2/app/views/companies/index.html.erb",
+		"/home/carmelo/business2/app/views/companies/_form.html.erb",
+		"/home/carmelo/business2/app/views/layouts/_sidebar.html.erb",
+		"/home/carmelo/business2/app/views/layouts/_footer.html.erb",
+		"/home/carmelo/business2/app/assets/stylesheets/layout.css.scss",
+		"/home/carmelo/business2/app/views/layouts/application.html.erb",
+		"/home/carmelo/business2/app/assets/stylesheets/companies.scss",
+		"/home/carmelo/business2/spec/features/add_and_connect_part_spec.rb",
+		"/home/carmelo/business2/spec/features/list_companies_spec.rb",
+		"/home/carmelo/work/session13code/format_spec.rb",
+		"/home/carmelo/work/session13code/layout.css.scss",
+		"/home/carmelo/business2/app/controllers/parts_controller.rb",
+		"/home/carmelo/business2/app/controllers/products_controller.rb",
+		"/home/carmelo/work/session13code/_header.html.erb",
+		"/home/carmelo/work/session13code/_sidebar.html.erb",
+		"/home/carmelo/business2/app/controllers/companies_controller.rb",
+		"/home/carmelo/.cache/.fr-q735SE/session13code/layout.css.scss",
+		"/home/carmelo/business2/app/views/users/new.html.erb",
+		"/home/carmelo/business2/app/views/users/index.html.erb",
+		"/home/carmelo/business2/app/controllers/application_controller.rb",
+		"/home/carmelo/business2/app/views/companies/select.html.erb",
+		"/home/carmelo/business2/app/views/users/show.html.erb",
+		"/home/carmelo/business2/app/views/users/_form.html.erb",
+		"/home/carmelo/business2/app/views/products/show.html.erb",
+		"/home/carmelo/business2/app/views/users/index.json.jbuilder",
+		"/home/carmelo/business2/app/views/products/new.html.erb",
+		"/home/carmelo/business2/app/views/products/_form.html.erb",
+		"/home/carmelo/sausage_store/app/views/sausages/index.html.erb",
+		"/home/carmelo/business2/spec/spec_helper.rb",
+		"/home/carmelo/business2/spec/rails_helper.rb",
+		"/home/carmelo/work/add_teacher_course_student_spec.rb",
+		"/home/carmelo/work/add_and_enroll_student_spec.rb",
+		"/home/carmelo/work/attributes.rb",
+		"/home/carmelo/business2/app/views/products/edit.html.erb",
+		"/home/carmelo/business2/app/views/products/index.html.erb",
+		"/home/carmelo/business2/app/helpers/products_helper.rb",
+		"/home/carmelo/business2/app/views/parts/select.html.erb",
+		"/home/carmelo/business2/Gemfile",
+		"/home/carmelo/business2/app/views/parts/edit.html.erb",
+		"/home/carmelo/workspace/HackersLab/readme.rdoc",
+		"/home/carmelo/.ssh/config",
+		"/home/carmelo/business2/app/views/parts/show.html.erb",
+		"/home/carmelo/business2/app/views/companies/show.html.erb",
+		"/home/carmelo/workspace/HackersLab/README.rdoc",
+		"/home/carmelo/business2/db/migrate/20150404142458_create_join_table_parts_products.rb",
+		"/home/carmelo/business2/db/migrate/20150404141427_create_parts.rb",
+		"/home/carmelo/business2/app/models/part.rb",
+		"/home/carmelo/business2/app/models/product.rb",
+		"/home/carmelo/.bashrc",
+		"/home/carmelo/file",
+		"/home/carmelo/hw9/spec/features/list_companies_spec.rb",
+		"/home/carmelo/hw9/spec/support/attributes.rb",
+		"/home/carmelo/business2/config/application.rb",
+		"/home/carmelo/a.txt"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"current",
+			"field",
+			"price",
+			"button",
+			"spring",
+			"spring 1.3.3",
+			"rails.roo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "admin_controller.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
