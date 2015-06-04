@@ -3,31 +3,23 @@
 #
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'sqlite3'
-# changed from sqlite3 to postgresql
 #
 default: &default
-  adapter: postgresql
+  adapter: sqlite3
   pool: 5
   timeout: 5000
-  username: carmelo
-  password: cl201812
-  host: localhost
-  port: 5432
 
 development:
   <<: *default
-  database: db/sausage_store_dev
-  #database: db/carmelo.pg
+  database: db/development.sqlite3
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: db/sausage_store_test
-  #database: db/carmelo.pg
+  database: db/test.sqlite3
 
 production:
   <<: *default
-  database: db/sausage_store_prod
-  #database: db/carmelo.pg
+  database: db/production.sqlite3

@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.0'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
+gem 'pg', '0.17.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -52,13 +53,14 @@ group :development, :test do
 
   gem "rspec-rails"
 
-
+  #gem 'minitest-rails', :path => "../minitest-rails"
+  gem 'minitest', '~> 5.7.0'
   group :test do
    gem "capybara"
   end
 end
 
 group :production do
-  gem 'pg', '0.17.1'
+  #gem 'pg', '0.17.1'
   gem 'rails_12factor', '0.0.2'
 end
