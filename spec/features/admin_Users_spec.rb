@@ -30,7 +30,7 @@ describe "Admin User Features" do
     click_link ("Users")
     expect(current_path).to eq users_path
     click_link ("Show")
-    #expect(current_path).to eq("/users/1")
+    expect(current_path).to eq("/users/1")
 
     expect(page).to have_text("Name:")
     expect(page).to have_text(user1.name)
