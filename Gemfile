@@ -38,7 +38,16 @@ gem 'kaminari', '~> 0.16'
 
 gem 'yaml_db'
 
+# added the next few lines for rspec
+#gem ‘twitter-bootstrap-rails’
+#gem ‘simple-form’
+
 group :development, :test do
+  # added the next few lines for rspec
+  gem 'rspec-rails'
+  gem 'capybara'
+  gem 'launchy'
+
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 
@@ -49,16 +58,19 @@ group :development, :test do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 
-
-
-  gem "rspec-rails"
-
   #gem 'minitest-rails', :path => "../minitest-rails"
   gem 'minitest', '~> 5.7.0'
+
+  # next few lines added for rspec debug
   group :test do
-   gem "capybara"
+    gem 'factory_girl_rails'
+    gem 'database_cleaner', '~> 1.4.1'
   end
 end
+group :development do    #access at rails/routes
+       gem 'sextant'
+end
+
 
 group :production do
   #gem 'pg', '0.17.1'

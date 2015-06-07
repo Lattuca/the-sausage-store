@@ -17,6 +17,12 @@
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 require 'rails_helper'
+
+# added these 3 lines for rspec debug
+require 'capybara/rails'
+require 'capybara/rspec'
+#config.include FactoryGirl::Syntax::Methods
+
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
   # assertion/expectation library such as wrong or the stdlib/minitest
