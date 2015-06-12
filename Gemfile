@@ -38,6 +38,8 @@ gem 'kaminari', '~> 0.16'
 
 gem 'yaml_db'
 
+gem 'seed_dump'
+
 # added the next few lines for rspec
 #gem ‘twitter-bootstrap-rails’
 #gem ‘simple-form’
