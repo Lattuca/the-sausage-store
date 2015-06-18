@@ -7,6 +7,13 @@ class Sausage < ActiveRecord::Base
   validates :price, numericality: {greater_than_or_equal_to: 0.01}
   validates :name, uniqueness: true
 
+ def yesno
+   if fresh
+     yesno = "Fresh"
+   else
+     yesno = "Frozen/Smoked/Cured"
+   end
+ end
 
   private
     # ensure that there are no line items referencing this sausage

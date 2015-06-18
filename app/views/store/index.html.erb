@@ -28,7 +28,7 @@
         <td><%= number_to_currency(sausage.price) %></td>
         <td><%= sausage.calories %></td>
         <td><%= sausage.qty %></td>
-        <td><%= sausage.fresh %></td>
+        <td><%= sausage.yesno %></td>
         <td><%= button_to 'Add to Cart', line_items_path(sausage_id: sausage) %>
     <% end %>
   </tbody>
