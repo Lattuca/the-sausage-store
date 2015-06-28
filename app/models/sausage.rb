@@ -14,6 +14,9 @@ class Sausage < ActiveRecord::Base
      yesno = "Frozen/Smoked/Cured"
    end
  end
+ def qty_to_purchase
+   qty_to_purchase = 1
+ end
 
   private
     # ensure that there are no line items referencing this sausage

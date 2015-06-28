@@ -16,6 +16,7 @@
       <th>Calories/lb</th>
       <th>In Stock Qty</th>
       <th>Fresh</th>
+      <th>Qty to Purchase</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -29,7 +30,8 @@
         <td><%= sausage.calories %></td>
         <td><%= sausage.qty %></td>
         <td><%= sausage.yesno %></td>
-        <td><%= button_to 'Add to Cart', line_items_path(sausage_id: sausage) %>
+        <td><%= f.select (sausage.qty_to_purchase, options_for_select((1..sausage.qty))) %></td>
+        <td><%= button_to 'Add to Cart', line_items_path(sausage_id: sausage) %></td>
     <% end %>
   </tbody>
 </table>
