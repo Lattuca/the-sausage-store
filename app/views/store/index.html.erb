@@ -30,7 +30,7 @@
         <td><%= sausage.calories %></td>
         <td><%= sausage.qty %></td>
         <td><%= sausage.yesno %></td>
-        <td><%= f.select (sausage.qty_to_purchase, options_for_select((1..sausage.qty))) %></td>
+        <td><%= select_tag "qty_to_purchase", options_for_select(1..sausage.qty),:style => "width: 50px" %>
         <td><%= button_to 'Add to Cart', line_items_path(sausage_id: sausage) %></td>
     <% end %>
   </tbody>
