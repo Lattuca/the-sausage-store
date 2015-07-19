@@ -24,6 +24,7 @@
   <tbody>
     <% @sausages.each do |sausage| %>
       <tr>
+        <% # put sausage id as a hidden element, and wrap the whole table with a form tag %>
         <td><%= sausage.name %></td>
         <td><%= sausage.description %></td>
         <td><%= number_to_currency(sausage.price) %></td>
